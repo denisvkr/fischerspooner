@@ -6,6 +6,7 @@ body {
 	margin-top: 30px;
 	background: rgb(152, 20, 209);
 }
+
 /*header and nav*/
 header {
 	min-width: 100%;
@@ -39,6 +40,7 @@ a {
 	color: white;
 	font-weight: bolder;
 }
+
 /*main*/
 main {
 	text-align: justify;
@@ -52,7 +54,6 @@ section.about {
 	margin-top: -1px;
 	padding: 4px;
 	border: 4px ridge yellow;
-
 }
 
 .about p {
@@ -72,12 +73,14 @@ section.band {
 	text-align: center;
 	line-height: 1.1em;
 }
+
 .band h2 {
 	color: #f7e92c;
 	font-size: 18px;
 }
 
 @media all and (min-width: 767px) {
+	
 	body {
         margin-top: 39px; 
 	}
@@ -126,16 +129,4 @@ section.band {
 	section {
 		background-color: rgba(152, 20, 209, 0.3);
 	}
-
 }
-	
-
-/*
-.showlinks {
-	display: inline-block;
-	text-decoration: none;
-	padding: 10px;
-	margin: 0 20px 0 70%;
-	border: 5px groove yellow;
-	border-radius: 20px;
-}*/
