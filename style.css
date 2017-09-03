@@ -78,11 +78,58 @@ section.band {
 }
 
 @media all and (min-width: 767px) {
+	body {
+        margin-top: 39px; 
+	}
+
+	a:nth-child(4) {
+		margin-right: 10px;
+	}
 	
-	/*a {
-		display: inline-block;
-	}*/
+	a {
+		padding: 7px 6px 3px 6px;
+	    margin: 3px 2px;
+		border-radius: 19px;
+		font-size: 22px;
+	}
 }
+
+@media all and (min-width: 900px) {
+
+	body {
+        background-image: url("https://i.vimeocdn.com/video/457060119.jpg?mw=1920&mh=1080&q=70"); 
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+	}
+
+	a:nth-child(4) {
+		margin-right: 25px;
+	}
+	
+	a {
+		padding: 7px 7px 3px 7px;
+	    margin: 6px 10px;
+		border-radius: 19px;
+		font-size: 22px;
+	}
+
+	img {
+		display: none;
+	}
+
+	section.about {
+		margin-top: 45%;
+	}
+
+	section {
+		background-color: rgba(152, 20, 209, 0.3);
+	}
+
+}
+	
+
 /*
 .showlinks {
 	display: inline-block;
